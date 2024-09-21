@@ -1,0 +1,31 @@
+###
+
+
+GET http://localhost:3333/
+
+###
+//acrescentar novo lutador
+POST  http://localhost:3333/new-lutador
+Content-Type: application/json 
+
+{
+    "name": "fabio",
+    "categoria": "peso medio",
+    "peso": "85kg"
+}
+### 
+//altera o lutador
+PUT http://localhost:3333/alter-lutador/02fd4a59-ecd2-483c-ba47-89ae27d86bc0
+Content-Type: application/json 
+
+{
+   
+    "name": "zayon",
+    "categoria": "peso medio",
+    "peso": "87kg"
+}
+
+###
+//apaga o lutador da tabela
+ DELETE http://localhost:3333/delete-lutador/02fd4a59-ecd2-483c-ba47-89ae27d86bc0
+

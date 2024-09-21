@@ -1,0 +1,20 @@
+{
+  "name": "videos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "postgres": "^3.4.4",
+    "start": "^5.1.0"
+  }
+}
